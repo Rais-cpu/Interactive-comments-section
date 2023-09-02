@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: hsla(223, 20%, 93%, 0.71);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  background-color: white;
+  height: 158px;
+  width: 700px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.box1 {
+  margin-top: 55px;
+}
+
+.box3,
+.box4 {
+  margin-left: 80px;
+  width: 620px;
+}
+
+.name {
+  display: flex;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 143px;
+}
+
+.month1,
+.month2,
+.month3,
+.month4 {
+  font-size: 12px;
+  font-size: 300;
+  color: rgba(0, 0, 0, 0.606);
+  margin-left: 245px;
+  margin-top: 33px;
+  display: flex;
+  justify-content: left;
+}
+
+.img {
+  margin-top: 20px;
+  margin-left: 85px;
+  width: 40px;
+}
+
+.para1,
+.para2,
+.para3,
+.para4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 76px;
+  margin-left: 84px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.handle1,
+.handle2,
+.handle3,
+.handle4 {
+  width: 40px;
+  height: 100px;
+  background-color: hsla(240, 58%, 85%, 0.305);
+  margin-top: 20px;
+  margin-left: 20px;
+}
